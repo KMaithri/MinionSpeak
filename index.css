@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color:yellow;
+    --dark-color: black;
+}
+#input, #output {
+    padding: 1rem;
+}
+
+textarea{
+    display: block;
+}
+
+#btn-translate {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--dark-color);
+    color: var(--primary-color);
+    display: block;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+
+.container-center {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+}
